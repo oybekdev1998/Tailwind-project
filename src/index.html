@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./output.css">
+  <title>Tailwind Project</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="flex justify-between items-center pt-[26px]">
+      <a href="#"><img src="../images/Logo.svg" alt="Logo"></a>
+
+      <ul class="flex gap-12 md:hidden">
+        <li><a class="font-medium text-xl text-lightblack leading-5 hover:text-darkred transition-colors lg:text-base" href="#">About</a></li>
+        <li><a class="font-medium text-xl text-lightblack leading-5 hover:text-darkred transition-colors lg:text-base" href="#">Services</a></li>
+        <li><a class="font-medium text-xl text-lightblack leading-5 hover:text-darkred transition-colors lg:text-base" href="#">Case Studies</a></li>
+        <li><a class="font-medium text-xl text-lightblack leading-5 hover:text-darkred transition-colors lg:text-base" href="#">Careers</a></li>
+        <li><a class="font-medium text-xl text-lightblack leading-5 hover:text-darkred transition-colors lg:text-base" href="#">Blog</a></li>
+      </ul>
+
+      <!-- Burger button -->
+      <button class="burger hidden md:block">
+        <span class="burger-line top-line dark:bg-white"></span>
+        <span class="burger-line med-line dark:bg-white"></span>
+        <span class="burger-line bottom-line dark:bg-white"></span>
+      </button>
+    </nav>
+  </div>
+</body>
+</html>
