@@ -8,7 +8,7 @@
   <title>Tailwind Project</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container relative">
     <nav class="flex justify-between items-center pt-[26px]">
       <a href="#"><img src="../images/Logo.svg" alt="Logo"></a>
 
@@ -20,13 +20,23 @@
         <li><a class="font-medium text-xl text-lightblack leading-5 hover:text-darkred transition-colors lg:text-base" href="#">Blog</a></li>
       </ul>
 
+      <ul id="menu" class="hidden absolute left-6 right-6 top-24 bg-lightred flex-col items-center">
+        <li><a class="block py-4 text-white" href="#">About</a></li>
+        <li><a class="block py-4 text-white" href="#">Services</a></li>
+        <li><a class="block py-4 text-white" href="#">Case Studies</a></li>
+        <li><a class="block py-4 text-white" href="#">Careers</a></li>
+        <li><a class="block py-4 text-white" href="#">Blog</a></li>
+      </ul>
+
       <!-- Burger button -->
-      <button class="burger hidden md:block">
-        <span class="burger-line top-line dark:bg-white"></span>
-        <span class="burger-line med-line dark:bg-white"></span>
-        <span class="burger-line bottom-line dark:bg-white"></span>
+      <button class="burger md:block">
+        <span class="burger-line top-line"></span>
+        <span class="burger-line mid-line"></span>
+        <span class="burger-line bottom-line"></span>
       </button>
     </nav>
   </div>
+
+  <script src="./main.js"></script>
 </body>
 </html>

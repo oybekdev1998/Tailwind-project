@@ -20,12 +20,13 @@
   height: 20px;
   position: relative;
   width: 20px;
+  
 }
 .buger-line {
   display: flex;
   width: 30px;
   height: 2px;
-  background: #D70026;
+  background-color: #D70026;
   transition: .3s all ease;
 }
 
